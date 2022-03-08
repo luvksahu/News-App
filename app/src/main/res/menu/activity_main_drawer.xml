@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/cnn"
+            android:title="@string/cnn"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_bbc"
+            android:icon="@drawable/bbc"
+            android:title="@string/bbc"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_rbharat"
+            android:icon="@drawable/rbharat"
+            android:title="@string/republic_bharat"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_damoh"
+            android:icon="@drawable/damoh"
+            android:title="@string/damoh_news"
+            android:menuCategory="secondary"/>
+    </group>
+    <item android:title="@string/upcoming"
+        android:menuCategory="secondary">
+        <menu>
+            <item
+                android:id="@+id/nav_dainikBhaskar"
+                android:title="@string/dainik_bhaskar"
+                android:icon="@drawable/dainikbhaskar"
+                android:menuCategory="secondary"/>
+        </menu>
+    </item>
+</menu>

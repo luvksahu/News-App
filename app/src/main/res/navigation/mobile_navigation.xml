@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.lks.newsapp.fragments.ui.CNNFragment"
+        android:label="@string/cnn"
+        tools:layout="@layout/fragment_cnn" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_damoh"
+            app:destination="@id/nav_damoh" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_bbc"
+        android:name="com.lks.newsapp.fragments.ui.BBCFragment"
+        android:label="@string/bbc"
+        tools:layout="@layout/fragment_bbc" />
+
+    <fragment
+        android:id="@+id/nav_rbharat"
+        android:name="com.lks.newsapp.fragments.ui.RBharatFragment"
+        android:label="@string/republic_bharat"
+        tools:layout="@layout/fragment_rbharat" />
+    <fragment
+        android:id="@+id/nav_damoh"
+        android:name="com.lks.newsapp.fragments.ui.DamohNews"
+        android:label="@string/damoh_news"
+        tools:layout="@layout/fragment_damoh_news" />
+</navigation>

@@ -20,21 +20,12 @@ public class CNNFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-
-
         binding = FragmentCnnBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-
 
         binding.webViewBbc.loadUrl("https://www.cnn.com/");
         binding.webViewBbc.setWebViewClient(new WebViewController());
 
-        binding.button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Navigation.findNavController(view).navigate(R.id.action_nav_home_to_nav_damoh);
-            }
-        });
         return root;
     }
 

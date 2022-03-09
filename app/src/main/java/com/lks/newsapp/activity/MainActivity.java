@@ -1,4 +1,4 @@
-package com.lks.newsapp;
+package com.lks.newsapp.activity;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.Menu;
 
 import com.google.android.material.navigation.NavigationView;
+import com.lks.newsapp.R;
 import com.lks.newsapp.databinding.ActivityMainBinding;
 
 import androidx.navigation.NavController;

@@ -7,20 +7,19 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
-import androidx.navigation.Navigation;
 
-import com.lks.newsapp.R;
-import com.lks.newsapp.databinding.FragmentCnnBinding;
+import com.lks.newsapp.databinding.FragmentBbcBinding;
 import com.lks.newsapp.webViewController.WebViewController;
 
-public class CNNFragment extends Fragment {
+public class CnnFragment extends Fragment {
 
-    private FragmentCnnBinding binding;
+    private FragmentBbcBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        binding = FragmentCnnBinding.inflate(inflater, container, false);
+
+
+        binding = FragmentBbcBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         binding.webViewBbc.loadUrl("https://www.cnn.com/");

@@ -7,19 +7,16 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.lks.newsapp.fragments.ui.CNNFragment"
-        android:label="@string/cnn"
-        tools:layout="@layout/fragment_cnn" >
-        <action
-            android:id="@+id/action_nav_home_to_nav_damoh"
-            app:destination="@id/nav_damoh" />
+        android:name="com.lks.newsapp.fragments.ui.BbcFragment"
+        android:label="@string/bbc"
+        tools:layout="@layout/fragment_bbc" >
     </fragment>
 
     <fragment
-        android:id="@+id/nav_bbc"
-        android:name="com.lks.newsapp.fragments.ui.BBCFragment"
-        android:label="@string/bbc"
-        tools:layout="@layout/fragment_bbc" />
+        android:id="@+id/nav_cnn"
+        android:name="com.lks.newsapp.fragments.ui.CnnFragment"
+        android:label="@string/cnn"
+        tools:layout="@layout/fragment_cnn" />
 
     <fragment
         android:id="@+id/nav_rbharat"

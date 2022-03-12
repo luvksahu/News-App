@@ -2,9 +2,9 @@
 
 #### I have build this app as a part of my learning process to practice use of Navigation Drawer, Fragments, and WebView
 <div>
-<img  src="res/screen_1.png" alt="luvksahu" height="450" width="260" display:inline/>
-<img  src="res/screen_2.png" alt="luvksahu" height="450" width="260" />
-<img  src="res/screen_3.png" alt="luvksahu" height="450" width="260" />
+<img  src="res/screen_1.png" alt="luvksahu" height="480" width="260" display:inline/>
+<img  src="res/screen_2.png" alt="luvksahu" height="480" width="260" />
+<img  src="res/screen_3.png" alt="luvksahu" height="480" width="260" />
  </div>
 
 ### Let us connect :
